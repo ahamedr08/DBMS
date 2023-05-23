@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------
 Sales Table : Sales_id, Product_id, Qty, Price, Branch_Name, Salesperson_Name
 Purchases Table : Purchase_id, Product_id, Qty, Purchase_date
-Products Table : Product_is, Product_name, Reorder_level
+Products Table : Product_id, Product_name, Reorder_level
 
 Query : Find the product which has been purchased at the maximum on a day.
 
