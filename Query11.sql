@@ -23,7 +23,7 @@ CREATE TABLE Transaction (
  Trans_Date DATE,
  Trans_Type VARCHAR(20),
  Trans_Amount FLOAT,
- FOREIGN KEY (Ac_No) REFERENCES Account2(Ac_No)
+ FOREIGN KEY (Ac_No) REFERENCES Account(Ac_No)
 );
 
 -- Insert sample accounts into Account table
